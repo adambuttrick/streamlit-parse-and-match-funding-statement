@@ -4,7 +4,7 @@ from flair.data import Sentence
 from flair.models import SequenceTagger
 
 ROR_URL = "https://api.ror.org/organizations"
-MODEL_PATH = 'flair/ner-english-large'
+MODEL_PATH = 'flair/ner-english'
 model = SequenceTagger.load(MODEL_PATH)
 
 
